@@ -32,6 +32,10 @@ docker build -t docker-nodejs-sample .
 ### 6. Docker-Container starten
 
 ```bash
+docker compose up --build
+```
+
+```bash
 docker run -p 3000:3000 docker-nodejs-sample
 ```
 
